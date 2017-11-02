@@ -131,13 +131,39 @@ label:last-child {
 
 /* --------- table styles below here --------- */
 
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+	
+	tr:nth-child(even) {
+		background-color: #f2f2f2;
+		}
 
 /* --------- unordered list styles below here --------- */
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+padding: 10px;
+border-top: thick double black;
+}
 
 /* --------- definition list styles below here --------- */
 
+dt {
+	padding: 10px;
+	font-size:20px;
+}
 
+dd {
+	padding: 10px;
+}
 
 
 /* --------- Basic responsive breakpoint --------- */
